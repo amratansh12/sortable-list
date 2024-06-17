@@ -41,7 +41,7 @@ const Item = ({
       ref={ref}
       className={`${
         isDragging ? "opacity-50" : "opacity-100"
-      } flex items-center justify-center space-x-1 bg-slate-100 p-4 rounded-md shadow-sm`}
+      } flex items-center justify-center space-x-1 bg-slate-100 py-4 px-10 rounded-md shadow-sm`}
     >
       {index + 1}: {item}
     </div>
